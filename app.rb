@@ -71,7 +71,7 @@ def no_guess_yet?
 end
 
 def set_secret_number
-  session['secret_number'] = rand(99) + 1
+  session['secret_number'] = rand(5) + 1
 end
 
 def clear_guessed_number
